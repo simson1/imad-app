@@ -9,7 +9,7 @@ body {
 }
 
 .text-big {
-    font-size: 250%;
+    font-size: 150%;
 }
 
 .bold {
@@ -19,4 +19,7 @@ body {
 .img-medium {
     height: 200px;
 }
-
+#click{
+    height: 30px;
+    margin-right: 10px; 
+}
