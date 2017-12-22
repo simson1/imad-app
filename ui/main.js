@@ -1,10 +1,10 @@
 var counter=document.getElementById('click');
-var counter=0;
+var count=0;
 counter.onclick=function(){
     
-    counter=counter+1;
+    count=count+1;
     var c=document.getElementById('j');
-    c.innerHTML=counter.toString();
+    c.innerHTML=count.toString();
     
     
     
