@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 var count=1
 app.get('/ui/cout',function(req,res){
-   res.send(count) 
+   res.send(count.toString()) 
    count=count+1
 });
 app.get('/ui/madi.png', function (req, res) {
