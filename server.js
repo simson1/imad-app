@@ -12,7 +12,11 @@ app.get
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-
+var count=1
+app.get('/ui/cout',function(req,res){
+   res.send(count) 
+   count=count+1
+});
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
