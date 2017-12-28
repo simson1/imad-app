@@ -3,7 +3,8 @@ var ti=document.getElementById('name');
 
  counter.click(function() {
     $('.main').animate({
-      right: "0px"
+      right: "0px",
+      left:"0px"
 	  
     }, 100);
 
