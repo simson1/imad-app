@@ -3,21 +3,17 @@ body {
     background-color: lightgrey;
     margin-top: 75px;
 }
-#img2
+.img2
 {
     position: relative;
     height: 25px;
-    margin:-20px 0px 20px 5px;
-    
-    
-    
-    
+    margin:-20px 1px 20px 5px;
 }
 h1
 {
     position: relative;
     font-size:30px;
-    margin:-54px 0px 20px 39px;
+    margin:-54px 1px 20px 39px;
 }
 .center {
     text-align: center;
