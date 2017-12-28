@@ -14,7 +14,7 @@ var main = function() {
   });
   
 };
-$(document).ready(main);
+//$(document).ready(main);
 
 /*counter.onclick=function(){
     var request=new XMLHttpRequest();
