@@ -1,7 +1,7 @@
-//var counter=document.getElementById('click');
+var counter=document.getElementById('name');
+var ti=document.getElementById('name');
 
-
-  $('#name').click(function() {
+ counter.click(function() {
     $('ul').animate({
       left: "0px"
 	  
