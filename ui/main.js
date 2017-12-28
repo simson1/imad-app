@@ -3,7 +3,7 @@ var main = function() {
 
   $('#name').click(function() {
     $('ul').animate({
-      left: "0px"
+      left: "100px"
 	  
     }, 200);
 
