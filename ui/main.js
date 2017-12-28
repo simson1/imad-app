@@ -3,13 +3,10 @@
 
   $('#name').click(function() {
     $('ul').animate({
-      left: "100px"
+      left: "0px"
 	  
-    }, 200);
+    }, 100);
 
-    $('body').animate({
-      left: "200px"
-    }, 200);
 
   });
   
