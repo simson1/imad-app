@@ -10,15 +10,15 @@ body {
 }
 #name
 {
-    position: relative;
+    position: fixed;
     height: 25px;
     margin:-20px 1px 20px 5px;
 }
 h1
 {
-    position: relative;
+    position: fixed;
     font-size:30px;
-    margin:-54px 1px 20px 39px;
+    margin:-20px 1px 20px 39px;
 }
 .center {
     text-align: center;
