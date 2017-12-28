@@ -1,5 +1,6 @@
 var counter=document.getElementById('click');
 var may=document.getElementById('img2');
+
 counter.onclick=function(){
     var request=new XMLHttpRequest();
     request.onreadystatechange=function(){
