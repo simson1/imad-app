@@ -1,5 +1,20 @@
 var counter=document.getElementById('click');
-var may=document.getElementById('img2');
+var main = function() {
+
+  $('#name').click(function() {
+    $('ul').animate({
+      left: "0px"
+	  
+    }, 200);
+
+    $('body').animate({
+      left: "200px"
+    }, 200);
+
+  });
+  
+};
+$(document).ready(main);
 
 counter.onclick=function(){
     var request=new XMLHttpRequest();
