@@ -3,7 +3,7 @@ body {
     background-color: lightgrey;
     margin-top: 75px;
 }
-ul{
+.main{
     position: relative;
     font-size: 20px;
     right: -270px;
