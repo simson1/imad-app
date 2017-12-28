@@ -1,5 +1,5 @@
 //var counter=document.getElementById('click');
-var main = function() {
+
 
   $('#name').click(function() {
     $('ul').animate({
@@ -13,8 +13,7 @@ var main = function() {
 
   });
   
-};
-//$(document).ready(main);
+
 
 /*counter.onclick=function(){
     var request=new XMLHttpRequest();
