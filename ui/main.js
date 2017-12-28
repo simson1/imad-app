@@ -1,4 +1,4 @@
-var counter=document.getElementById('click');
+//var counter=document.getElementById('click');
 var main = function() {
 
   $('#name').click(function() {
@@ -16,7 +16,7 @@ var main = function() {
 };
 $(document).ready(main);
 
-counter.onclick=function(){
+/*counter.onclick=function(){
     var request=new XMLHttpRequest();
     request.onreadystatechange=function(){
     if(request.readyState==XMLHttpRequest.DONE){
@@ -34,4 +34,4 @@ counter.onclick=function(){
 
     request.open('GET','http://jaydave422.imad.hasura-app.io/ui/cout',true);
     request.send(null);
-};
+};*/
