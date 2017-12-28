@@ -3,6 +3,11 @@ body {
     background-color: lightgrey;
     margin-top: 75px;
 }
+ul{
+    position: relative;
+    font-size: 20px;
+    left: -270px;
+}
 .img2
 {
     position: relative;
