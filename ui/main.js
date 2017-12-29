@@ -1,7 +1,7 @@
-var counter=document.getElementById('name');
- counter.click(function() {
-    $('.main').animate({
-     left:"0px"
+
+ $('#name').click(function() {
+    $('body').animate({
+     left:"200px"
 	  
     }, 100);
 
