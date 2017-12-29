@@ -1,8 +1,6 @@
 var counter=document.getElementById('name');
-var ti=document.getElementById('name');
-
  counter.click(function() {
-    $('.center').animate({
+    $('.main').animate({
      left:"0px"
 	  
     }, 100);
