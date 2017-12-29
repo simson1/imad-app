@@ -5,9 +5,13 @@ body {
     margin-top: 75px;
 }
 .main{
-    position: fixed;
-    font-size: 20px;
-    right: -270px;
+    width:200px;
+	height:100%;
+	
+  background-image: -webkit-linear-gradient(#0d0d0d, #444040);
+
+    position:fixed;
+ right:-290px;
 }
 #name
 {
