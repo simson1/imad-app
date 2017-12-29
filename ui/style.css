@@ -3,31 +3,32 @@ body {
      position: relative;
     background-color: lightgrey;
     margin-top: 75px;
-    left: 0;
-  margin: 0;
+    
   overflow: hidden;
-
+  box-sizing:border-box;
+    border:10px solid  black;
 }
 .main{
     width:200px;
 	height:100%;
-	
-  background-image: -webkit-linear-gradient(#0d0d0d, #444040);
-
+	 border:1px solid  black;
     position:fixed;
- right:-290px;
+    left:-595px;
 }
 #name
 {
     position: fixed;
+     border:1px solid  black;
+
     height: 25px;
-    margin:-20px 1px 20px 5px;
+    margin:20px 1px 20px 5px;
 }
 h1
 {
+     border:1px solid  black;
     position: absolute;
     font-size:30px;
-    margin:-20px 1px 20px 39px;
+    margin:20px 1px 20px 39px;
 }
 .center {
 
