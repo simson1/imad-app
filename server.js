@@ -27,7 +27,7 @@ app.get('/ui/main.js',function(req,res)
 });
 app.get('/ui/jquery.min.js',function(req,res)
 {
-    res.sendFile(path.join(__dirname,'ui','query.main.js'));
+    res.sendFile(path.join(__dirname,'ui','query.min.js'));
     });
 
 // Do not change port, otherwise your app won't run on IMAD servers
